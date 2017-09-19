@@ -18,3 +18,8 @@ a:active {
 	    background-color: transparent;
 	    text-decoration: underline;
 }
+
+p {
+	padding-right: 8cm;
+	padding-left: 8cm;
+}
