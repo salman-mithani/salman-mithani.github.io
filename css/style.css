@@ -18,3 +18,13 @@ a:active {
 	    background-color: transparent;
 	    text-decoration: underline;
 }
+
+.resultContainer {width:150px;min-height:80px;position:relative;}
+.viewThisResult {position:absolute;}
+
+.resultContainer .viewThisResult {
+    display: none;
+}
+.resultContainer:hover .viewThisResult {
+    display: inline;
+}
